@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env DISABLE_NOTIFIER=1 mix",
+        "watch": "cross-env DISABLE_NOTIFIER=1 mix watch",
+        "watch-poll": "cross-env DISABLE_NOTIFIER=1 mix watch -- --watch-options-poll=1000",
+        "hot": "cross-env DISABLE_NOTIFIER=1 mix watch --hot",
+        "prod": "npm run production",
+        "production": "cross-env DISABLE_NOTIFIER=1 mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^0.25",
+        "bootstrap": "^5.2.3",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "sass": "^1.56.1",
+        "sass-loader": "^12.1.0"
+    }
+}
